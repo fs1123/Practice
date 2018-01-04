@@ -1,7 +1,7 @@
 def prime(n):
     # n까지 소수 리스트를 구한다.
     prime_list = []
-    number_list = list(range(2,10001))
+    number_list = list(range(2,n+1))
 
     while number_list:
         prime_list.append(number_list[0])
